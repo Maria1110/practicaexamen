@@ -1,0 +1,110 @@
+html {
+    background-color:pink;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background: url(fond.webp);
+     background-size: cover;
+    background-position: top;
+        margin:auto;
+      
+    
+}
+.cuerpo{
+    background:#ececec;
+    border:solid #ccc;
+    /*aumentando el 2px 'aparece' un borde*/
+    border-width: 2px 0;
+    padding:15px 35px;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffcbdb;
+    padding: 5px;
+    
+   }
+  
+.logo{
+    display: flex;
+    align-items:center ;
+    
+}
+.logo img{
+    height: 90px; 
+    margin-right: 10px; 
+}
+
+
+.cuerpo {
+
+    font-size: x-large;
+     font-family: sans-serif;
+    
+    }
+    
+ h2{
+    text-align:center;
+    color: black;
+    font-family: Comic Sans MS,cursiva;
+ }
+      .texto {
+          text-align: right;
+      }
+    
+    
+    p{
+        font-family: 'Indie Flower', cursive;
+    }    
+    h4{
+        text-align: center;
+        font-weight: bold;
+        padding: 1em;
+        font-family: Comic Sans MS,cursiva; 
+    }
+    .texto {
+        text-align: right;
+    }
+  
+  
+  p{
+      font-family: 'Indie Flower', cursive;
+  }
+    .principio{
+        text-align: justify;
+        padding: 30px;
+        }
+    
+.principal{
+background-color:#ffcbdb;
+display:flex;
+width:1200px;
+
+}
+.img {
+width: 250px;
+height:200px;
+display: block;
+margin:auto;
+}
+.contenedor{
+    width: 200 px;
+    height: 690px;
+    float: left;
+    margin:auto;
+        border-style: dashed;
+        border-color:#ffcbdb;
+        padding: 20px;
+}
+
+
+
